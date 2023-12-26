@@ -1,0 +1,20 @@
+{
+  "name": "@code-forge/frontend-mentor-blog-preview-card",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "generate": "yarn generate"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "@code-forge/forge": "*",
+    "@code-forge/tsconfig": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20"
+  }
+}

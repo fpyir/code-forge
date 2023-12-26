@@ -5,8 +5,8 @@
     "show_room",
     "packages/*",
     "full_stacks/*",
-    "fe_products/*",
-    "code_products/*"
+    "frontend_mentor/*",
+    "code_only/*"
   ],
   "version": "1.0.0",
   "scripts": {

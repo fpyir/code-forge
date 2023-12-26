@@ -1,0 +1,15 @@
+{
+  "name": "@code-forge/forge",
+  "version": "1.0.0",
+  "description": "Code generation for the forge",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@code-forge/tsconfig": "*"
+  },
+  "peerDependencies": {
+    "typescript": "*"
+  }
+}

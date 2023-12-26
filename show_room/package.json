@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@code-forge/tsconfig": "*",
+    "@code-forge/eslint-config": "*",
     "react": "^18",
     "react-dom": "^18",
     "next": "14.0.4"

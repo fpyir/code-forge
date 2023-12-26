@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "fpyir-code-forge",
+  "workspaces": [
+    "show_room",
+    "packages/*",
+    "full_stacks/*",
+    "fe_products/*",
+    "code_products/*"
+  ],
+  "version": "1.0.0",
+  "scripts": {
+    "generate": "turbo run generate",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1",
+    "turbo": "latest"
+  }
+}

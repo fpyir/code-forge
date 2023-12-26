@@ -21,10 +21,11 @@ A single mono-repo for all my Typescript practice projects, with a website that 
 /full_stacks  <-- Home for all the full stack apps. Each is deployed independently.
   /<project_1>   <-- Each project is its own package in the monorepo.
 
-/fe_products    <-- Frontend-only projects.
+/frontend_mentor    <-- Frontend Mentor projects
+  /base   <-- Base config & dependencies for every frontend mentor project
   /<project_1>   <-- Each project is its own package in the monorepo.
 
-/code_products    <-- Code-only projects. Do not have to be in typescript.
+/code_only    <-- Code-only projects. Do not have to be in typescript.
   /advent_of_code   <-- Single package for all Advent of Code solutions
   /leet_code    <-- Single package for all LeetCode solutions.
 ```

@@ -39,13 +39,11 @@ export type LeetCodeForgeMeta = {
   type: "leet-code";
   name: string;
   challengeUrl: string;
-  difficulty: LeetCodeDifficulty[];
+  difficulty: LeetCodeDifficulty;
   topics: LeetCodeTopics[];
 
-  solutions: Partial<{
-    [language in LeetCodeLanguage]: {
-      filePath: string;
-    };
+  solutionPaths: Partial<{
+    [language in LeetCodeLanguage]: string;
   }>;
 };
 

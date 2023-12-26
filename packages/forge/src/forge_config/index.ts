@@ -5,7 +5,9 @@ import type { Grind75ForgeMeta, LeetCodeForgeMeta } from "./leetcode_meta";
 export * from "./frontend_mentor_meta";
 export * from "./leetcode_meta";
 
-export type ForgeConfig = {
+export type ForgeConfig<
+  TBuilder extends ForgeBuilderConfig = ForgeBuilderConfig,
+> = {
   meta: FrontendMentorForgeMeta | LeetCodeForgeMeta | Grind75ForgeMeta;
 
   builder: ForgeBuilderConfig;

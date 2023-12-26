@@ -21,6 +21,11 @@ export type GeneratedForgeBuilderConfig = {
   bundlePath?: string;
 };
 
+export type CodeDisplayForgeBuilderConfig = {
+  builder: "code-display";
+};
+
 export type ForgeBuilderConfig =
   | StaticForgeBuilderConfig
-  | GeneratedForgeBuilderConfig;
+  | GeneratedForgeBuilderConfig
+  | CodeDisplayForgeBuilderConfig;

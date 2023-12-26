@@ -7,15 +7,13 @@ export enum FrontendMentorDifficulty {
 }
 
 export type FrontendMentorForgeMeta = {
-  type: "frontend mentor";
+  type: "frontend-mentor";
 
   name: string;
   description?: string;
 
   source: string;
   difficulty: FrontendMentorDifficulty;
-
-  buildStyle: "static" | "generated";
 
   artefactPaths?: {
     // defaults to "./dist" for generated, "./src" for static
